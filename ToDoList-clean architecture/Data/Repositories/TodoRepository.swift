@@ -8,5 +8,5 @@
 import Foundation
 
 protocol TodoRepository {
-    func fetchTodos(comlpetion: @escaping(Result<[Todo], Error>) -> Void)
+    func fetchTodos(completion: @escaping(Result<[Todo], Error>) -> Void)
 }
